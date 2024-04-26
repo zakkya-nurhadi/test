@@ -1,0 +1,37 @@
+<! DOCTYPE html>
+<html>
+  <head>
+    <title>Belajar CSS</title>
+    <style>
+      .border {
+        border: 10px solid transparent;
+        border-image-source: url(https://tools.hendky.com
+/editor/gambar/border-gambar.png);
+        padding: 15px;
+        border-image-slice: 30;
+      }
+      #repeat {
+        border-image-repeat: repeat;
+      }
+      #round {
+        border-image-repeat: round;
+      }
+      #stretch {
+        border-image-repeat: stretch;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Belajar CSS</h1>
+    <p>Gambar original</p>
+    <img src-"https://tools.hendky.com/editor/gambar/border -gambar.png"
+    alt-"gambar asli border image" />
+
+    <p id="repeat" class="border">border-image-repeat: repeat</p>
+
+    <p id="round" class="border">
+      border-image-repeat: round ;< /p> <p id-"stretch"
+      class-"border">border-image-repeat: stretch ;< /p>
+    </p>
+  </body>
+</html>
